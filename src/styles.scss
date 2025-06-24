@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+.mat-mdc-form-field .mdc-text-field--filled {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+
+.mat-mdc-form-field .mat-mdc-input-element {
+    color: #000000 !important;
+}
+
+.mat-mdc-form-field .mdc-floating-label {
+    color: #007fff !important;
+}
+
+.mat-mdc-raised-button.save-button {
+    background-color: #0288D1 !important;
+    color: white !important;
+}
+
+.mat-mdc-raised-button.save-button:hover {
+    background-color: #0277BD !important;
+}
+
+.mat-mdc-button.cancel-button {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff !important;
+    padding: 4px 12px;
+}

@@ -1,0 +1,54 @@
+:host {
+    display: block;
+    width: 100%;
+    max-width: 420px;
+    background-color: #f4f6f8;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+h2 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 16px;
+    background-color: #1976d2;
+}
+
+mat-dialog-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #f4f6f8;
+}
+
+mat-form-field {
+    width: 100%;
+    background-color: #f4f6f8;
+}
+
+mat-dialog-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 16px;
+    gap: 8px;
+    background-color: #1976d2;
+
+    button {
+        min-width: 80px;
+    }
+}
+
+mat-mdc-text-field-wrapper {
+    background-color: #f4f6f8;
+}
+
+button.mat-raised-button.save-button {
+    background-color: #0288D1;
+    color: #fff;
+}
+
+button.mat-raised-button.save-button:hover {
+    background-color: #0277BD;
+}
