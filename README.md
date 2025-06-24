@@ -16,7 +16,7 @@ Zawiera symulację ładowania danych oraz spinner podczas oczekiwania.
 
 ---
 
-## 🇬🇧 Description
+## 🇺🇸 Description
 
 Angular application displaying a table of chemical elements with filtering and editing capabilities.  
 Includes simulated data loading with a loading spinner.  
@@ -30,8 +30,48 @@ Includes simulated data loading with a loading spinner.
 
 ---
 
-## 🚀 Uruchomienie / How to run
+## 🇵🇱 Jak przygotować środowisko
 
-```bash
-npm install
-npm start
+1. Zainstaluj [Node.js](https://nodejs.org/) (zalecana wersja LTS).  
+2. Zainstaluj Angular CLI globalnie, jeśli jeszcze nie masz:  
+   ```bash
+   npm install -g @angular/cli
+
+## 🇺🇸 How to prepare the environment
+
+1.Install Node.js (recommended LTS version).
+2.Install Angular CLI globally if you don’t have it yet:
+   ```bash
+  npm install -g @angular/cli
+```
+## 🇵🇱 Jak pobrać projekt
+
+1. Sklonuj repozytorium:
+   ```bash
+   git clone https://github.com/RudzioQ/element-table.git
+2. Przejdź do katalogu projektu:
+   ```bash
+   cd nazwa-repozytorium
+3. Zainstaluj zależności:
+   ```bash
+   npm install
+
+## 🇺🇸 How to download the project
+
+1. Clone the repository:
+      ```bash
+   git clone https://github.com/RudzioQ/element-table.git
+3. Navigate to project folder:
+     ```bash
+   cd nazwa-repozytorium
+4. Install dependencies:
+     ```bash
+   npm install
+## 🇵🇱 Uruchomienie aplikacji
+  ```bash
+  npm start
+```
+## 🇺🇸 Running the application
+  ```bash
+  npm start
+```
